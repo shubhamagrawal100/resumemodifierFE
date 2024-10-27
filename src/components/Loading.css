@@ -1,0 +1,17 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: Semi-transparent background */
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Ensure it's above other content */
+}
+
+.loading-container img {    
+    width: 100px; /* Adjust size as necessary */
+    height: 100px;
+}
